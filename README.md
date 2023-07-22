@@ -1,4 +1,4 @@
-# AI SaaS Platform Portfolio Project
+# AI SaaS Platform Portfolio Project (AIssential Tools)
 
 This is an AI SaaS platform developed with [Next.js](https://nextjs.org/), showcasing integration of five unique AI tools, a Stripe subscription system, and a Crisp customer support system. This project was built following the tutorial: ["Build a SaaS AI Platform with Next.js 13, React, Tailwind, Prisma, Stripe | Full Tutorial 2023" - Code with Antonio](https://www.youtube.com/watch?v=ffJ38dBzrlY).
 
@@ -32,12 +32,12 @@ This portfolio project features:
 
 ## Technology Stack
 
-- **Framework:** Next.js
-- **Authentication:** Clerk
+- **Framework:** [Next.js 13](https://nextjs.org/docs)
+- **Authentication:** [Clerk](https://clerk.com/docs)
 - **Billing & Subscriptions:** Stripe
-- **UI Components:** ShadCN
+- **UI Components:** [Shadcn/ui](https://ui.shadcn.com/)
 - **Customer Support:** Crisp
-- **Other tools:** React, Tailwind, Prisma, MySQL
+- **Other tools:** React, [Tailwind](https://tailwindcss.com/), Prisma, MySQL
 
 ## Deployment
 
