@@ -1,8 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI SaaS Platform Portfolio Project
+
+This is an AI SaaS platform developed with [Next.js](https://nextjs.org/), showcasing integration of five unique AI tools, a Stripe subscription system, and a Crisp customer support system. This project was built following the tutorial: ["Build a SaaS AI Platform with Next.js 13, React, Tailwind, Prisma, Stripe | Full Tutorial 2023" - Code with Antonio](https://www.youtube.com/watch?v=ffJ38dBzrlY).
 
 ## Getting Started
 
-First, run the development server:
+Run the development server:
 
 ```bash
 npm run dev
@@ -12,23 +14,33 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can modify `app/page.tsx` to start editing. The page auto-updates as you make changes.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The project utilizes [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to load Inter, a custom Google Font.
 
-## Learn More
+## Project Details
 
-To learn more about Next.js, take a look at the following resources:
+This portfolio project features:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Advanced client-side routing with Next.js 13 App Router
+- User billing through a Stripe subscription system
+- Five distinct AI tools powered by OpenAI and Replicate AI
+- Crisp-driven error handling and customer support system
+- Clerk implemented authentication
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Technology Stack
 
-## Deploy on Vercel
+- **Framework:** Next.js
+- **Authentication:** Clerk
+- **Billing & Subscriptions:** Stripe
+- **UI Components:** ShadCN
+- **Customer Support:** Crisp
+- **Other tools:** React, Tailwind, Prisma, MySQL
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This Next.js app can be effortlessly deployed using the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
+
+For more information, visit [Next.js deployment documentation](https://nextjs.org/docs/deployment).
